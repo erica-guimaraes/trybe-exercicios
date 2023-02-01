@@ -15,11 +15,11 @@
 // A função verificaPalindromo deve retornar false quando receber a string 'desenvolvimento'.
 
 let palavra = "arara";
-// let resultado = 
+let resultado = 
 
 function verificaPalindromo(palavra){
     for(let index = palavra.length - 1; index >= 0; index -= 1){
-        // resultado += palavra[index];
+        resultado += palavra[index];
             if(palavra[index] === palavra){
                 console.log(true);
             }else{
@@ -28,17 +28,30 @@ function verificaPalindromo(palavra){
     }
 }
 // console.log(resultado);
+
             // EXERCÍCIO 2
 
 // 2. Crie uma função que retorne o índice do maior valor
 // Implemente a função indiceDoMaior que retornará o índice do maior número em um array
 // A função indiceDoMaior recebe como parâmetro um array de inteiros, não repetidos, e deve retornar o índice do array, em formato de número, onde se encontra o maior valor desse array.
-// De olho na dica eyes: Os métodos Number ou parseInt podem te ajudar para converter tipos no JavaScript.
+// De olho na dica: Os métodos Number ou parseInt podem te ajudar para converter tipos no JavaScript.
 
 // O que será testado
 // A função indiceDoMaior deve retornar 4 quando receber o array [2, 3, 6, 7, 10, 1];
 
 // A função indiceDoMaior deve retornar 0 quando receber o array [9, 1, 3, 5, 7].
+
+
+function indiceDoMaior(numeros) {
+    let indiceMaior = 0;
+    for (let index in numeros) {
+        if (numeros[index] > indiceMaior){
+            indiceMaior = numeros[index];
+        } 
+    }
+    return numeros.indexOf(indiceMaior);
+}
+console.log(indiceDoMaior([2, 3, 6, 7, 10, 1]));
 
             // EXERCÍCIO 3
 

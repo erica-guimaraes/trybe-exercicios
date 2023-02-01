@@ -136,18 +136,14 @@
 // Para os ângulos serem de um triângulo válido, a soma dos três devem ser 180 graus.
 // Um ângulo será considerado inválido se não tiver um valor positivo.
 
-function angulos (angulo1, angulo2, angulo3){
-    if ((angulo1 + angulo2) + angulo3 === 180){
-        return true;
-    } else if ((angulo1 + angulo2) + angulo3 !== 180){
-        return false;
-    } else if ( angulo1 < 0 || angulo2 < 0 || angulo3 < 0){
-        return "inválido";
-    }
- } 
-console.log(angulos(60, 60, 60));
-
-
-
-
-
+// function angulos (angulo1, angulo2, angulo3){
+//     if ((angulo1 + angulo2) + angulo3 === 180){
+//         return true;
+//     } else if ((angulo1 + angulo2) + angulo3 !== 180){
+//         return false;
+//     } else if ( angulo1 < 0 || angulo2 < 0 || angulo3 < 0){
+//         return "inválido";
+//     }
+//  } 
+// console.log(angulos(60, 60, 60));
+g

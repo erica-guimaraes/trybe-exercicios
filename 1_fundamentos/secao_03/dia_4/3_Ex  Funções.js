@@ -51,19 +51,31 @@ function indiceDoMaior(numeros) {
     }
     return numeros.indexOf(indiceMaior);
 }
-console.log(indiceDoMaior([2, 3, 6, 7, 10, 1]));
+// console.log(indiceDoMaior([2, 3, 6, 7, 10, 1]));
 
             // EXERCÍCIO 3
 
 // 3. Crie uma função que retorne o índice do menor valor
 // Implemente a função indiceDoMenor que retornará o índice do menor número em um array
 // A função indiceDoMenor recebe como parâmetro um array de inteiros, não repetidos, e deve retornar o índice do array, em formato de número, onde se encontra o menor valor desse array.
-// De olho na dica eyes: Os métodos Number ou parseInt podem te ajudar para converter tipos no JavaScript.
+// De olho na dica: Os métodos Number ou parseInt podem te ajudar para converter tipos no JavaScript.
 
 // O que será testado
 // A função indiceDoMenor deve retornar 5 quando receber o array [2, 3, 6, 7, 10, 1];
 
 // A função indiceDoMenor deve retornar 6 quando receber o array [2, 4, 6, 7, 10, 0, -3].
+
+function indiceDoMenor (numeros) {  
+    let indiceMenor = numeros[0];
+    for (let index in numeros) {
+        if (numeros[index] < indiceMenor) {
+            indiceMenor = numeros[index];
+        }
+    }
+    return numeros.indexOf(indiceMenor);
+}
+
+// console.log(indiceDoMenor([2, 3, 6, 7, 10, 1]));
 
             // EXERCÍCIO 4
 
@@ -73,6 +85,17 @@ console.log(indiceDoMaior([2, 3, 6, 7, 10, 1]));
 // O que será testado
 // A função maiorPalavra deve retornar Fernanda quando receber o array ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
 // A função maiorPalavra deve retornar JavaScript quando receber o array ['JavaScript', 'HTML', 'CSS', 'GitHub', 'Unix'];
+
+function maiorPalavra (palavras) {
+    let maior = "";
+    for (let index = 0; index < palavras.length; palavras.length += 1) {
+        if (palavras[index].length > maior) {
+            maior = palavras[index].length;
+        }
+    }
+    return maior;
+}
+console.log(maiorPalavra(["Jose", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana"]));
 
             // EXERCÍCIO 5
 

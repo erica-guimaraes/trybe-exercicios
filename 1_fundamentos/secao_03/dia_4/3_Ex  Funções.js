@@ -1,7 +1,7 @@
-            // FUNÇÕES
-            // EXERCÍCIOS DO REPOSITÓRIO REMOTO DA TRIBO
+// FUNÇÕES
+// EXERCÍCIOS DO REPOSITÓRIO REMOTO DA TRIBO
 
-            // EXERCÍCIO 1
+// EXERCÍCIO 1
 
 // 1. Crie uma função que verifica palíndromos
 // Implemente a função verificaPalindromo que confere se uma palavra é um palíndromo ou não
@@ -14,22 +14,22 @@
 
 // A função verificaPalindromo deve retornar false quando receber a string 'desenvolvimento'.
 
-let palavra = "arara";
-let resultado = 
+// let palavra = "arara";
+// let resultado =
 
-function verificaPalindromo(palavra){
-    for(let index = palavra.length - 1; index >= 0; index -= 1){
-        resultado += palavra[index];
-            if(palavra[index] === palavra){
-                console.log(true);
-            }else{
-                console.log(false);
-        }
-    }
-}
+//     function verificaPalindromo(palavra) {
+//         for (let index = palavra.length - 1; index >= 0; index -= 1) {
+//             resultado += palavra[index];
+//             if (palavra[index] === palavra) {
+//                 console.log(true);
+//             } else {
+//                 console.log(false);
+//             }
+//         }
+//     }
 // console.log(resultado);
 
-            // EXERCÍCIO 2
+// EXERCÍCIO 2
 
 // 2. Crie uma função que retorne o índice do maior valor
 // Implemente a função indiceDoMaior que retornará o índice do maior número em um array
@@ -42,18 +42,18 @@ function verificaPalindromo(palavra){
 // A função indiceDoMaior deve retornar 0 quando receber o array [9, 1, 3, 5, 7].
 
 
-function indiceDoMaior(numeros) {
-    let indiceMaior = 0;
-    for (let index in numeros) {
-        if (numeros[index] > indiceMaior){
-            indiceMaior = numeros[index];
-        } 
-    }
-    return numeros.indexOf(indiceMaior);
-}
+// function indiceDoMaior(numeros) {
+//     let indiceMaior = 0;
+//     for (let index in numeros) {
+//         if (numeros[index] > indiceMaior) {
+//             indiceMaior = numeros[index];
+//         }
+//     }
+//     return numeros.indexOf(indiceMaior);
+// }
 // console.log(indiceDoMaior([2, 3, 6, 7, 10, 1]));
 
-            // EXERCÍCIO 3
+// EXERCÍCIO 3
 
 // 3. Crie uma função que retorne o índice do menor valor
 // Implemente a função indiceDoMenor que retornará o índice do menor número em um array
@@ -65,19 +65,19 @@ function indiceDoMaior(numeros) {
 
 // A função indiceDoMenor deve retornar 6 quando receber o array [2, 4, 6, 7, 10, 0, -3].
 
-function indiceDoMenor (numeros) {  
-    let indiceMenor = numeros[0];
-    for (let index in numeros) {
-        if (numeros[index] < indiceMenor) {
-            indiceMenor = numeros[index];
-        }
-    }
-    return numeros.indexOf(indiceMenor);
-}
+// function indiceDoMenor(numeros) {
+//     let indiceMenor = numeros[0];
+//     for (let index in numeros) {
+//         if (numeros[index] < indiceMenor) {
+//             indiceMenor = numeros[index];
+//         }
+//     }
+//     return numeros.indexOf(indiceMenor);
+// }
 
 // console.log(indiceDoMenor([2, 3, 6, 7, 10, 1]));
 
-            // EXERCÍCIO 4
+// EXERCÍCIO 4
 
 // 4. Crie uma função que retorna a maior palavra
 // Implemente a função maiorPalavra que retornará a maior palavra em um array
@@ -86,23 +86,23 @@ function indiceDoMenor (numeros) {
 // A função maiorPalavra deve retornar Fernanda quando receber o array ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
 // A função maiorPalavra deve retornar JavaScript quando receber o array ['JavaScript', 'HTML', 'CSS', 'GitHub', 'Unix'];
 
-function maiorPalavra (palavras) {
-    let maior = "";
-    for (let index = 0; index < palavras.length; palavras.length += 1) {
-        if (palavras[index].length > maior) {
-            maior = palavras[index].length;
-        }
-    }
-    return maior;
-}
-console.log(maiorPalavra(["Jose", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana"]));
+// function maiorPalavra(palavras) {
+//     let maior = palavras[0];
+//     for (let index in palavras) {
+//         if (palavras[index].length > maior.length) {
+//             maior = palavras[index];
+//         }
+//     }
+//     return maior;
+// }
+// console.log(maiorPalavra(["Jose", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana"]));
 
             // EXERCÍCIO 5
 
 // 5. Crie uma função que retorne o número mais frequente
 // Implemente a função maisRepetido que retornará o número que mais se repete em um array
 // A função maisRepetido recebe como parâmetro um array de inteiros e deve retornar o número que mais se repete nesse array.
-// De olho nas dicas eyes:
+// De olho nas dicas:
 
 // Os métodos Number ou parseInt podem te ajudar para converter tipos no JavaScript;
 
@@ -112,6 +112,19 @@ console.log(maiorPalavra(["Jose", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana
 // A função maisRepetido deve retornar 2 quando receber o array [2, 3, 2, 5, 8, 2, 3];
 
 // A função maisRepetido deve retornar 3 quando receber o array [2, 3, -2, 3, -2, 2, 3];
+
+
+function maisRepetido (numeros) {
+    let numRepetido = numeros[0];
+    
+    for (let index in numeros) {
+        if (numeros[index] === numRepetido) {
+            numRepetido = numeros[index];
+        }
+    }
+    return numRepetido;
+}
+console.log(maisRepetido([2, 3, -2, 3, -2, 2, 3]));
 
             // EXERCÍCIO 6
 

@@ -14,4 +14,15 @@ const elementoOndeVoceEsta = document.getElementById("elementoOndeVoceEsta");
 const pai = elementoOndeVoceEsta.parentNode;
 pai.style.color = "red";
 
-const primeiroFilhoDoFilho = 
+const primeiroFilhoDoFilho = elementoOndeVoceEsta.firstElementChild;
+primeiroFilhoDoFilho.innerText = 'primeiroFilhoDoFilho';
+
+const primeiroFilho = pai.firstElementChild;
+
+const primeiroFilho2 = elementoOndeVoceEsta.previousElementSibling;
+
+const textElement = elementoOndeVoceEsta.nextSibling;
+
+const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
+
+const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;

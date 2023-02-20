@@ -39,19 +39,65 @@ const myFizzBuzz = require('/home/user/trybe/trybe-exercicios/1_fundamentos/seca
 
 describe('Exercício 2 - Função myFizzBuzz', () => {
     it ('Verifica, se de acordo com o parâmetro recebido, retorna o valor esperado', () => {
-        expect(myFizzBuzz(15)).toBe("fizzbuzz");
-        expect(myFizzBuzz(9)).toBe("fizz");
-        expect(myFizzBuzz(25)).toBe("buzz");
-        expect(myFizzBuzz(13)).toBe(13);
-        expect(myFizzBuzz('num')).toBe(false);
+        expect(myFizzBuzz(15)).toEqual("fizzbuzz");
+        expect(myFizzBuzz(9)).toEqual("fizz");
+        expect(myFizzBuzz(25)).toEqual("buzz");
+        expect(myFizzBuzz(13)).toEqual(13);
+        expect(myFizzBuzz('num')).toEqual(false);
     });
 });
 
 // 🚀 Exercício 3
 
 // Para as funções encode e decode, crie os seguintes testes em Jest:
-// Teste se encode e decode são funções;
+// Teste se encode e decode são funções; OK
 // Para a função encode, teste se as vogais a, e, i, o, u são convertidas em 1, 2, 3, 4 e 5, respectivamente;
 // Para a função decode, teste se os números 1, 2, 3, 4 e 5 são convertidos nas vogais a, e, i, o, u, respectivamente;
-// Teste se as demais letras/números não são convertidos para cada caso;
+// Teste se as demais letras/números não são convertidos para cada caso; ????
 // Teste se a string que é retornada pelas funções tem o mesmo número de caracteres que a string passada como parâmetro.
+
+const encode = require('/home/user/trybe/trybe-exercicios/1_fundamentos/secao_06/dia_2/script.js');
+const decode = require('/home/user/trybe/trybe-exercicios/1_fundamentos/secao_06/dia_2/script.js');
+
+describe('Exercício 3 - Funções encode e decode', () => {
+    it ('Encode é uma função', () => {
+        expect(typeof encode).toEqual('function');
+    });
+    it ('Decode é uma função', () => {
+        expect(typeof decode).toEqual('function');
+    });
+    it ('Na função encode a vogal a é convertida em 1', () => {
+        expect(encode('a')).toEqual('1');
+    });
+    it ('Na função encode a vogal e é convertida em 2', () => {
+        expect(encode('e')).toEqual('2');
+    });
+    it ('Na função encode a vogal i é convertida em 3', () => {
+        expect(encode('i')).toEqual('3');
+    });
+    it ('Na função encode a vogal o é convertida em 4', () => {
+        expect(encode('o')).toEqual('4');
+    });
+    it ('Na função encode a vogal u é convertida em 5', () => {
+        expect(encode('u')).toEqual('5');
+    });
+    it ('Na função decode o número 1 é convertido em a', () => {
+        expect(decode('1')).toEqual('a');
+    });
+    it ('Na função decode o número 2 é convertido em e', () => {
+        expect(decode('2')).toEqual('e');
+    });
+    it ('Na função decode o número 3 é convertido em i', () => {
+        expect(decode('3')).toEqual('i');
+    });
+    it ('Na função decode o número 4 é convertido em o', () => {
+        expect(decode('4')).toEqual('o');
+    });
+    it ('Na função decode o número 5 é convertido em u', () => {
+        expect(decode('5')).toEqual('u');
+    });
+    it ('Verifica se a palavra Trybe tem o mesmo número de caracteres', () => {
+        expect(decode('Trybe').length).toEqual(5);
+        expect(encode('Trybe').length).toEqual(5);
+    });
+});

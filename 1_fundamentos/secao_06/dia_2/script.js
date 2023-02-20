@@ -58,5 +58,5 @@ const decode = (string) => {
   return mapString(map, string);
 }
 
-module.exports = myRemove, myFizzBuzz;
+module.exports = myRemove, myFizzBuzz, mapString, encode, decode;
   

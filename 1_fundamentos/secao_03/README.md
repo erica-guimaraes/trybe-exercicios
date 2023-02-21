@@ -50,4 +50,4 @@ Compreendi o que é JavaScript, como ele surgiu e para que é utilizado. Com iss
 
 - Criar expressões condicionais simplificadas com ternary operator.
 
-Ao final da seção, desenvolvi o Projeto - Playground Functions
+### Ao final da seção, desenvolvi o Projeto - Playground Functions

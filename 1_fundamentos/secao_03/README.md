@@ -1,4 +1,4 @@
-#INTRODUÇÃO - JavaScript
+# INTRODUÇÃO - JavaScript
 
 Nessa seção, comecei a aprender sobre a linguagem de programação JavaScript, um passo importantíssimo para a minha promissora jornada no mundo da programação! 🚀
 
@@ -50,4 +50,4 @@ Compreendi o que é JavaScript, como ele surgiu e para que é utilizado. Com iss
 
 - Criar expressões condicionais simplificadas com ternary operator.
 
-Ao final da seção, desenvolvi o ###Projeto - Playground Functions
+Ao final da seção, desenvolvi o Projeto - Playground Functions

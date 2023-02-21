@@ -1,4 +1,4 @@
-#UNIX, SHEL, GIT E GITHUB
+# UNIX, SHEL, GIT E GITHUB
 
 Nesta seção, aprendi como o Unix funciona e como devemos interagir com ele no terminal utilizando o Shell.
 Desenvonvendo habilidades em:

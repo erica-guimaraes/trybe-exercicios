@@ -37,6 +37,6 @@ Resumos das habilidades desenvolvidas:
 - Entender a diferença entre elementos de bloco e elementos inline.
 
 
-Ao final dessa seção, desenvolvi meu primeiro Projeto na Trybe - ###Lessons Learned 
+Ao final dessa seção, desenvolvi meu primeiro Projeto na Trybe - ### Lessons Learned 
 
 

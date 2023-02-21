@@ -26,4 +26,4 @@ Trabalhei com:
 
 - Páginas que alteram o seu layout de acordo com a orientação da tela.
 
-Ao final dessa seção, desenvolvemos nosso primeiro projeto em dupla - Projeto - Trybewarts 
+### Ao final dessa seção, desenvolvemos nosso primeiro projeto em dupla - Projeto - Trybewarts 

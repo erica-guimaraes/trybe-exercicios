@@ -16,4 +16,4 @@ Trabalhei com elementos, Eventos e Web Storage em JavaScript, desenvolvendo as s
 
 - Manipular o objeto sessionStorage.
 
-Ao final dessa seção, desenvolvi o Projeto - Arte com Pixels
+### Ao final dessa seção, desenvolvi o Projeto - Arte com Pixels

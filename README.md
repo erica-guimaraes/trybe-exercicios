@@ -10,12 +10,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ### Módulo 1 - Fundamentos
 - [x] Seção 01 - Unix Shell e Git
-- [ ] Seção 02 - Introdução à HTML e CSS
-- [ ] Seção 03 - Introdução à JavaScripe
-- [ ] Seção 04 - JavaScript: DOM, Eventos e Web Storage
-- [ ] Seção 05 - HTML e CSS: Forms, Flexbox e Responsivo
-- [ ] Seção 06 - Introdução à JavaScript ES6 e Testes Unitários
-- [ ] Seção 07 - Higher Order Functions do JavaScript ES6
+- [x] Seção 02 - Introdução à HTML e CSS
+- [x] Seção 03 - Introdução à JavaScripe
+- [x] Seção 04 - JavaScript: DOM, Eventos e Web Storage
+- [x] Seção 05 - HTML e CSS: Forms, Flexbox e Responsivo
+- [x] Seção 06 - Introdução à JavaScript ES6 e Testes Unitários
+- [x] Seção 07 - Higher Order Functions do JavaScript ES6
 
 ### Múdulo 2 - Front-end
 - [ ] Seção 01 Introdução ao Frontend e JavaScrip assíncrono

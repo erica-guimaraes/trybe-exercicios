@@ -12,4 +12,4 @@ Com o desenvolvimento do projeto, aprimoramos nossos conhecimentos em:
 
 - Escrever testes e funções utilizando uma abordagem de desenvolvimento orientado a testes.
 
-Dê uma espiadinha nesse projeto: (JavaScript-Testes Unitários)[https://github.com/tryber/sd-030-a-project-js-unit-tests/tree/erica-guimaraes-project-js-unit-tests].
+Dê uma espiadinha nesse projeto: [JavaScript-Testes Unitários](https://github.com/tryber/sd-030-a-project-js-unit-tests/tree/erica-guimaraes-project-js-unit-tests).

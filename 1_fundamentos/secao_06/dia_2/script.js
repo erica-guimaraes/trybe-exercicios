@@ -85,3 +85,29 @@ const techList = (tecnologias, name) => {
 module.exports = techList;
 
 console.log(techList(['React', 'Jest', 'HTML', 'CSS', 'JavaScript'], 'Lucas'));
+
+// 🚀 Exercício 5
+// A função hydrate recebe uma string no formato “numero bebida”, e retorna a sugestão de quantos copos de água você deve beber para se hidratar. 
+// Para cada bebida, deve-se tomar um copo de água para não ter ressaca.
+
+const hydrate = (string) => {
+  const stringSeparada = string.split(' ');
+  let coposDeAgua = 0;
+  for (let index = 0; index < stringSeparada.length; index += 1) {
+    const analisaCaractere = parseInt(stringSeparada[index]);
+    if (analisaCaractere) {
+      coposDeAgua += analisaCaractere;
+    };
+  };
+  
+  let copo = 'copo';
+
+  if (coposDeAgua > 1) {
+    copo = 'copos';
+  };
+  return `${coposDeAgua} ${copo} de água`;
+};
+
+module.exports = hydrate;
+
+console.log(hydrate('1 cachaça, 5 cervejas e 1 copo de vinho'));

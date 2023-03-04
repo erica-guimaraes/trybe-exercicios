@@ -70,5 +70,18 @@ module.exports = myRemove, myFizzBuzz, mapString, encode, decode;
 // }
 // Implemente a função techList a partir dos testes já feitos.
 
+const techList = (tecnologias, name) => {
+  const ordemTecnologias = tecnologias.sort();
+  const listaTecnologias = [];
+  for (let index = 0; index < ordemTecnologias.length; index += 1) {
+    listaTecnologias.push({
+      tech: ordemTecnologias[index],
+      name,
+    });
+  };
+  return listaTecnologias;
+};
 
+module.exports = techList;
 
+console.log(techList(['React', 'Jest', 'HTML', 'CSS', 'JavaScript'], 'Lucas'));

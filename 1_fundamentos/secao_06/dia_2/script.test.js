@@ -105,7 +105,7 @@ describe('Exercício 3 - Funções encode e decode', () => {
 // 🚀 Exercício 4
 // É importante nunca alterar os testes ou as variáveis já escritas no código.
 
-const techList = require('./techList.js');
+const techList = require('/home/user/trybe/trybe-exercicios/1_fundamentos/secao_06/dia_2/script.js');
 
 describe('Testa a função techList', () => {
   it('Testa se a função techList é definida', () => {
@@ -143,4 +143,3 @@ describe('Testa a função techList', () => {
   });
 });
 
-module.exports = techList;

@@ -1,4 +1,4 @@
-// Exercício
+// Exercício 2
 // Pedido de clientes
 // Imagine que você tenha ficado responsável por cuidar do sistema de entrega de um restaurante e que precisasse enviar mensagens para os clientes com a informação da compra. 
 // Para isso, use o seguinte código:

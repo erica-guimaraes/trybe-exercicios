@@ -28,6 +28,6 @@ Sendo assim, sou capaz de:
 
 - Adicionar propriedades a um objeto.
 
-No dia de hoje, desenvovi alguns exercícios que simulam o projeto futuro, dê uma olhadinha (aqui) [https://github.com/tryber/sd-030-a-exercise-exception-handling/compare/main...erica-guimaraes-exception-handling]
+No dia de hoje, desenvovi alguns exercícios que simulam o projeto futuro, dê uma olhadinha [aqui](https://github.com/tryber/sd-030-a-exercise-exception-handling/compare/main...erica-guimaraes-exception-handling)
 
 

@@ -31,9 +31,7 @@ Agora que temos um padrão, vamos criar um breakpoint para telas menores de lapt
 
 - Faça as imagens serem mostradas em duas colunas.
 
-3. Agora, você vai criar outro breakpoint para telas grandes, como por exemplo, desktops. Para isso você pode consultar novamente nossa tabela com os tamanhos.
-
-Crie uma nova media query no seu arquivo CSS usando a dimensão para telas de desktop e realize os seguintes ajustes dentro do breakpoint (aqui podemos usar o tamanho de tela de 992px):
+3. Crie uma nova media query no seu arquivo CSS usando a dimensão para telas de desktop e realize os seguintes ajustes dentro do breakpoint (aqui podemos usar o tamanho de tela de 992px):
 
 - Altere a cor de fundo;
 

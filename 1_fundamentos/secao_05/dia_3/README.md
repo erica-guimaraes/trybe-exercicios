@@ -16,6 +16,6 @@ Com isso, sou capaz de:
 
 - Utilizar CSS Flexbox para alterar o comportamento de containers.
 
-Ao final do dia, desenvovi uma página web utilizando HTML e CSS com conceitos de Flexbox. A página é uma galeria de fotos com algumas linguagens e frameworks front-end. Confira: [GitHub](https://github.com/tryber/sd-030-a-exercise-trybe-tech-gallery/tree/erica-guimaraes-exercise-tech-gallery)
+Ao final do dia, desenvovi uma página web utilizando HTML e CSS com conceitos de Flexbox. A página é uma galeria de fotos com algumas linguagens e frameworks front-end. Confira: [Aqui](https://github.com/tryber/sd-030-a-exercise-trybe-tech-gallery/tree/erica-guimaraes-exercise-tech-gallery)
 
 

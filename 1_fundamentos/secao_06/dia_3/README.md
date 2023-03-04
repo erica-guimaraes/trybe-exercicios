@@ -11,6 +11,6 @@ Com isso, sou capaz de:
 
 - Selecionar os matchers adequados para diferentes situações;
 
-- Testar fluxos de exceção utilizando o Jest;]
+- Testar fluxos de exceção utilizando o Jest;
 
 - Avaliar a cobertura de testes do código.

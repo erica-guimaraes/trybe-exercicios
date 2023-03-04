@@ -14,3 +14,5 @@ Com isso, sou capaz de:
 - Testar fluxos de exceção utilizando o Jest;
 
 - Avaliar a cobertura de testes do código.
+
+Realizei ao final do dia, o exercício disponível em: [GitHub](https://github.com/tryber/sd-030-a-exercise-tests-in-practice/compare/main...erica-guimaraes-tests-in-practice) 

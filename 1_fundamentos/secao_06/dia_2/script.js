@@ -59,4 +59,16 @@ const decode = (string) => {
 }
 
 module.exports = myRemove, myFizzBuzz, mapString, encode, decode;
-  
+
+// Exercício 4
+
+// A função techList recebe como parâmetros um array contendo uma lista de tecnologias e uma string com um nome. 
+// Para cada tecnologia no array a função cria, em ordem alfabética, um objeto com a seguinte estrutura:
+// {
+//   tech: 'nomeTecnologia',
+//   name: name,
+// }
+// Implemente a função techList a partir dos testes já feitos.
+
+
+

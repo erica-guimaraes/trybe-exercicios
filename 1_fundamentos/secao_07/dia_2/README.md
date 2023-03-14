@@ -9,4 +9,5 @@ Com isso, serei capaz de:
 
 - Utilizar a função Array.map para manipular e construir arrays.
 
+Neste exercício você vai desenvolvi funções usando as Higher Order Functions map e sort: [exercise-books-list](https://github.com/tryber/sd-030-a-exercise-books-list/tree/erica-guimaraes-exercise-books-list)
 

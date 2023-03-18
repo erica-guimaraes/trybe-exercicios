@@ -8,6 +8,23 @@
     <script src="./src/main.js" type="module" defer></script>
 </head>
 <body>
+    <main>
+        <h1>Validador de Campos</h1>
+        <form>
+            <input type="text" placeholder="Insira aqui o valor" id="value">
+
+            <select name="campo" id="option">
+                <option value="cpf">CPF</option>
+                <option value="email">E-mail</option>
+                <option value="dataDeNascimento">Data de Nascimento</option>
+                <option value="url">URL</option>
+                <option value="numeroDeCelular">Número de Celular</option>
+            </select>
+            
+            <button id="button">Validar</button>
+        </form>
+        <p id="response">Digite o valor, escolha a opção e clique em validar</p>
+    </main>
     
 </body>
 </html>

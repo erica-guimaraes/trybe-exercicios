@@ -4,9 +4,13 @@
   "description": "Busca de imagem e nome de super heróis e super heroínas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open"
   },
   "author": "erica",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "vite": "^4.2.0"
+  }
 }

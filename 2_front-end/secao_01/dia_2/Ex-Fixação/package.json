@@ -1,0 +1,11 @@
+{
+  "name": "microblogs",
+  "version": "1.0.0",
+  "description": "Microblogs é a leitura de posts de várias pessoas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "erica",
+  "license": "ISC"
+}

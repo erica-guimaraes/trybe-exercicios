@@ -1,0 +1,12 @@
+{
+  "name": "super-heroes",
+  "version": "1.0.0",
+  "description": "Busca de imagem e nome de super heróis e super heroínas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "erica",
+  "license": "ISC",
+  "type": "module"
+}

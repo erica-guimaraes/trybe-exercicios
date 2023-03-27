@@ -1,0 +1,17 @@
+{
+  "name": "ex-cep",
+  "version": "1.0.0",
+  "description": "Aplicação para busca de informações através do CEP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open"
+  },
+  "author": "erica",
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert2": "^11.7.3",
+    "vite": "^4.2.1"
+  },
+  "type": "module"
+}

@@ -8,3 +8,5 @@ Sendo assim, sou capaz de:
 - Escrever códigos assíncronos utilizando async/await;
 - Utilizar o try/catch para tratar erros;
 - Escrever testes para códigos assíncronos utilizando async/await.
+
+Exercício [Magic Card](https://github.com/tryber/sd-030-a-exercise-magic-card/tree/erica-guimaraes-ex-magic-card)

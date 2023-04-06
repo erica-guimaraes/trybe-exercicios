@@ -10,7 +10,7 @@ Foi avaliado:
 O que devo desenvolver?
 Você vai criar uma página para listar todos os planetas do Sistema Solar. E, além dos planetas, você também vai listar algumas das missões espaciais mais conhecidas.
 
-Confira o resultado (aqui){https://github.com/tryber/sd-030-a-project-solar-system/tree/erica-guimaraes-splar-system}
+Confira o resultado (aqui)[https://github.com/tryber/sd-030-a-project-solar-system/tree/erica-guimaraes-splar-system]
 
 
 

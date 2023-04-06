@@ -1,4 +1,4 @@
-###Projeto - Solar System
+### Projeto - Solar System
 
 Nesse projeto, desenvolvi minha primeira aplicação usando React: uma página para listar todos os planetas do Sistema Solar e também algumas das missões espaciais mais conhecidas.
 Para isso, implementei e combinei um pequeno conjunto de componentes para criar as listas de planetas e missões. 

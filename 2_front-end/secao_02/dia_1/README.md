@@ -15,6 +15,6 @@ Com isso, sou capaz de:
 
 - Utilizar o import para usar código externo junto ao meu.
 
-No dia de hoje, também foi realizado o exercício (Frontend-content)[https://github.com/tryber/sd-030-a-exercise-frontend-content/tree/erica-guimaraes-ex-frontend-content]
+No dia de hoje, também foi realizado o exercício [Frontend-content](https://github.com/tryber/sd-030-a-exercise-frontend-content/tree/erica-guimaraes-ex-frontend-content)
 
 
